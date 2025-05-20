@@ -1,4 +1,17 @@
-# papers
+# papers <!-- omit in toc -->
+
+- [CAP theorem](#cap-theorem)
+- [consensus](#consensus)
+- [database](#database)
+- [distributed computation](#distributed-computation)
+- [experimentation](#experimentation)
+- [graph](#graph)
+- [peer-to-peer](#peer-to-peer)
+- [search](#search)
+- [storage](#storage)
+- [streaming](#streaming)
+- [systems](#systems)
+- [virtualization](#virtualization)
 
 ## CAP theorem
 
