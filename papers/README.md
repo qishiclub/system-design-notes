@@ -19,7 +19,7 @@
 
 ## consensus
 
-- [Raft: In Search of an Understandable Consensus Algorithm](./consensus/raft-extended-atc14.pdf) [Stanford, 2014]
+- [Raft: In Search of an Understandable Consensus Algorithm](./consensus/raft-extended-atc14.pdf) [Stanford, 2014], [Dissertation](./consensus/raft-dissertation-14.pdf)
 
 ## database
 
