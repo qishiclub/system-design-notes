@@ -121,15 +121,21 @@
 
 # Database
 
-- Amazon DocumentDB – Fully managed MongoDB-Compatible database service.
-- DynamoDB – Managed NoSQL database.
-- ElastiCache – In-memory Cache
-- Amazon Keyspaces – Serverless Cassandra-compatible database.
-- Amazon MemoryDB for Redis – Fully managed, Redis-compatible, in-memory database service.
-- Neptune – Fast, reliable graph database built for the cloud.
-- Amazon QLDB – Fully managed ledger database.
-- RDS – Managed Relational Database Service.
-- Amazon Timestream – fast, scalable, and serverless time series database for IoT and operational applications.
+| type        | examples                                                                                       | services                                |
+| ----------- | ---------------------------------------------------------------------------------------------- | --------------------------------------- |
+| relational  | Traditional app, ERP, CRM, ecommerce                                                           | Aurora, RDS, Redshift                   |
+|             | GenAI (chatbots with RAG, similarity search, recommendation systems, and more)                 |                                         |
+| key-value   | high-traffic webapp, ecommerce systems, gaming app                                             | DynamoDB                                |
+|             | GenAI (similarity search using DynamoDB zero-ETL integration with Amazon OpenSearch Service)   |                                         |
+| in-memory   | Caching, session management, gaming leaderboards, geospatial applications                      | ElasticCache, MemoryDB                  |
+|             | GenAI (chatbots with RAG, semantic caching, recommendation systems, fraud detection, and more) |                                         |
+| Document    | Content management, catalogs, user profiles                                                    | DocumentDB (with MongoDB compatibility) |
+|             | GenAI (chatbots with RAG, similarity search, recommendation systems, and more)                 |                                         |
+| Graph       | Fraud detection, social networking, recommendation engines                                     | Neptune                                 |
+|             | GenAI (GraphRAG, enhanced fraud detection, discovery of new answers, and more)                 |                                         |
+| Wide column | High-scale industrial apps for equipment maintenance, fleet management, and route optimization | Keyspaces                               |
+| Time series | Internet of Things (IoT) applications, DevOps, industrial telemetry                            | Timestream                              |
+
 
 # Developer Tools
 
