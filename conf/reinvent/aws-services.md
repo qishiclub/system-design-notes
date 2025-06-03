@@ -290,10 +290,26 @@
 
 # Storage
 
+| type                                    | service                         |
+| --------------------------------------- | ------------------------------- |
+| Object storage                          | S3                              |
+| File Storage                            | EFS                             |
+| File storage                            | FSx                             |
+| Block storage                           | EBS                             |
+| FIle storage                            | File cache                      |
+| Data migration                          | DataSync                        |
+| Data migration                          | Snowball                        |
+| Hybrid cloud storage and edge computing | AWS Storage Gateway             |
+| Managed file transfer                   | AWS transfer family             |
+| Disaster recovery and backup            | Elastic Disaster Recovery (DRS) |
+| Disaster recovery and backup            | AWS Backup                      |
+
 - AWS Backup – Centrally manages and automates backups across AWS Services
-- EFS – Managed File Storage for EC2
+- EFS – Managed File Storage for EC2 (for Linux)
 - AWS Elastic Disaster Recovery – Scalable, cost-effective application recovery to AWS.
 - FSx – Fully managed third-party file systems optimized for variety of workloads.
+  - FSx for Lustre (for compute-intensive tasks)
+  - FSx for Windows (tailored for Windows applications)
 - S3 – Scalable Storage in the cloud.
 - S3 Glacier – Archive Storage in the Cloud
 - Storage Gateway – Hybrid Storage Integration.
