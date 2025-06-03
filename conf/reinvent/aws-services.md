@@ -5,7 +5,11 @@
 - [AWS Cost management](#aws-cost-management)
 - [Business Applications](#business-applications)
 - [Compute](#compute)
-- [Container](#container)
+  - [Instances (VM)](#instances-vm)
+  - [Container](#container)
+  - [Serverless](#serverless)
+  - [Edge and hybrid](#edge-and-hybrid)
+  - [Cost and capacity management](#cost-and-capacity-management)
 - [Database](#database)
 - [Developer Tools](#developer-tools)
 - [End user Computing](#end-user-computing)
@@ -76,21 +80,44 @@
 
 # Compute
 
-- AWS App Runner
-- Batch
+## Instances (VM)
+
+- AWS Elastic Beanstalk
 - Amazon EC2
-- Amazon EC2 Image Builder
-- Elastic Beanstalk
-- Lambda
-- LightSail
-- AWS OutPosts
-- Serverless Application Repository
+- Amazon EC2 Spot
+- Amazon EC2 Autoscaling
+- Amazon Lightsail
+- AWS Batch
+- AWS Parallel Computing Service
 
-# Container
+## Container
 
-- Elastis Container Registry
-- Elastic Container Service
-- Elastic Kubernetes Service
+- Amazon ECS
+- Amazon ECS Anywhere
+- Amazon ECR
+- Amazon EKS
+- Amazon EKS Anywhere, Fully managed Kubernetes service
+- AWS Fargate
+- AWS App Runner
+
+## Serverless
+
+- AWS Lambda
+
+## Edge and hybrid
+
+- AWS Outposts
+- AWS Snow family - Collect and process data in rugged or disconnected edge environments
+- AWS Wavelength -Deliver ultra-low latency application for 5G devices
+- VMware Cloud on AWS - Preferred service for all vSphere workloads to rapidly extend and migrate to the cloud
+- AWS Local Zones - Run latency sensitive applications closer to end-users
+
+## Cost and capacity management
+
+- AWS Savings Plan
+- AWS Compute Optimizer
+- EC2 Image Builder
+- ELB
 
 # Database
 
