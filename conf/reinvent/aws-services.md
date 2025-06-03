@@ -15,6 +15,11 @@
 - [Management \& Governance](#management--governance)
 - [Migration \& Transfer](#migration--transfer)
 - [Networking \& Content Delivery](#networking--content-delivery)
+  - [Network foundations](#network-foundations)
+  - [Application networking](#application-networking)
+  - [Edge networking](#edge-networking)
+  - [Hybrid connectivity](#hybrid-connectivity)
+  - [Network security](#network-security)
 - [Security, Identity, \& Compliance](#security-identity--compliance)
 - [Storage](#storage)
 
@@ -191,16 +196,39 @@
 
 # Networking & Content Delivery
 
-- API Gateway – Build, Deploy and Manage APIs.
-- AWS App Mesh – Easily monitor and control microservices.
-- AWS Cloud Map – Build a dynamic map of your cloud.
-- CloudFront – Global content delivery network.
-- Direct Connect – Dedicated Network Connection to AWS.
-- Global Accelerator – Improve your applications availability and performance using the AWS Global Network.
-- AWS Private 5G – Deploy and scale private mobile networks on-premises.
-- Route 53 – Scalable DNS and Domain Name Registration.
-- Route 53 Application Recovery Controller – Monitor application recovery readiness and manage failovers.
-- VPC – Isolated Cloud Resources.
+## Network foundations
+
+- AWS VPC
+- AWS Transit Gateway
+- AWS PrivateLink
+
+## Application networking
+
+- AWS VPC Lattice
+- AWS AppMesh
+- AWS API Gateway
+- AWS Cloud Map
+- Elastic Load Balancing
+
+## Edge networking
+
+- AWS CloudFront
+- AWS Route53
+- AWS Global Accelerator – Improve your applications availability and performance using the AWS Global Network.
+
+## Hybrid connectivity
+
+- AWS Direct Connect - Estabilish a private, dedicated AWS connection to your data center, office or colocation environment
+- AWS Site-to-Site VPN - create an encrypted network connection to your Amazon VPCs or AWS Transit Gateways
+- AWS Client VPN - Connect your remote workforce to AWS or on-premises with a VPN
+- AWS Cloud WAN - Easily build, manage, and monitor global WAN
+
+## Network security
+
+- AWS Shield - Safeguard AWS applications against DDoS attacks
+- AWS WAF - Protect your webapp from common web exploits
+- AWS Network Firewall - Deploy network security across your Amazon VPCs
+- AWS Firewall Manager - Centrally configure and manage firewall rules
 
 # Security, Identity, & Compliance
 
